@@ -1,0 +1,141 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    background-color: #00fe9c;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    /* background-color: #f5df4e; */
+    margin: 0 auto;
+    padding: 0;
+    min-width: 548px;
+}
+
+  #container {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 70px auto 50px;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center;
+}
+
+p {
+    font-size: 36px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.block {
+    border: 3px solid rgb(7, 50, 25);
+    border-radius: 12px;
+    width: 60%;
+    padding: 30px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block2 {
+    width: 60%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+    font-size: 36px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: 25px 0 30px;
+
+}
+
+
+
+.main-image {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1150px) {
+    .block {
+        width: 75%;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 958px) {
+    p {
+        font-size: 28px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .block {
+        width: 85%;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 692px) {
+    p {
+        font-size: 24px;
+    }
+    button {
+        font-size: 26px;
+    }
+
+    .block {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 566px) {
+
+
+    h1 {
+        font-size: 46px;
+    }
+}
+
