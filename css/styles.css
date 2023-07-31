@@ -78,6 +78,7 @@ button {
 
 .main-image {
     margin: 0 auto;
+    width: 420px;
 }
 
 @media screen and (max-width: 1150px) {
